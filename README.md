@@ -13,8 +13,7 @@
 
 ### Drawing example:
 
-![shelly 1]((https://github.com/RubenDijk/Airwick-air-freshener/blob/main/shelly.png) "Shelly 1")
-
+![shelly 1]((https://github.com/RubenDijk/Airwick-air-freshener/blob/main/shelly.png "shelly")
 
 ### Links:
 * https://shelly.cloud/products/shelly-1-smart-home-automation-relay/
