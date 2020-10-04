@@ -1,0 +1,35 @@
+substitutions:
+  system_name: shelly_1_kitchen_air_freshener
+  friendly_name: shelly 1 kitchen Air Freshener
+
+esphome:
+  name: ${system_name}
+  platform: ESP8266
+  board: esp01_1m
+
+wifi:
+  ssid: "your_network_ssid"
+  password: "your_network_key"
+  fast_connect: true
+  
+  ap:
+    ssid: ${friendly_name}
+    password: "MlQKAm0J65483n4U"
+    
+captive_portal:
+
+logger:
+api:
+ota:
+
+switch:
+  - platform: gpio
+    pin: 4
+    id: relay
+  - platform: template
+    name: "${system_name}_air_freshener"
+    icon: "mdi:air-purifier"
+    turn_on_action:
+    - switch.turn_on: relay
+    - delay: 500ms
+    - switch.turn_off: relay
