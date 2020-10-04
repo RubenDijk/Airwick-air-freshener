@@ -1,4 +1,4 @@
-# Airwick-air-freshener
+# DIY Airwick Air Freshener ESPHome
 ##### Created by Ruben Dijk
 ---
 ### Needs:
@@ -8,12 +8,17 @@
 * ESPHome
 * 12 volt adapter
 
+### Lets make it:
+* First you need to flash your shelly with the esphome bin file
+* Check Home Assistant if its found a new device.
+* Configure the device and you are ready to go!
+
 ### ESPHome example
 * [Check shelly1.yaml](https://github.com/RubenDijk/Airwick-air-freshener/blob/main/shelly1.yaml/)
 
 ### Drawing example:
 
-![shelly 1]((https://github.com/RubenDijk/Airwick-air-freshener/blob/main/shelly.png "shelly")
+![shelly](https://github.com/RubenDijk/Airwick-air-freshener/blob/main/shelly.png "shelly")
 
 ### Links:
 * https://shelly.cloud/products/shelly-1-smart-home-automation-relay/
