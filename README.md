@@ -13,7 +13,7 @@
 
 ### Drawing example:
 
-![shelly 1]((https://github.com/RubenDijk/Airwick-air-freshener/blob/main/shelly.png?raw=true) "")
+![shelly 1]((https://github.com/RubenDijk/Airwick-air-freshener/blob/main/shelly.png) "")
 
 
 ### Links:
